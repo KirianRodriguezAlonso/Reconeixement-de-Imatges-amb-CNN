@@ -9,7 +9,7 @@ nombres_clase = ["Avión", "Automóvil", "Pájaro", "Gato", "Ciervo", "Perro", "
 
 #Carga modelo ya entrenado por un archivo en una ruta determinada
 def carga_modelo():
-    modelo = tf.keras.models.load_model("C:\\Users\\Kirian\\Downloads\\modelo_completo.h5")
+    modelo = tf.keras.models.load_model("C:\\Users\\Kirian\\\Documents\\\GitHub\\Reconeixement-de-Imatges-amb-CNN\\modelo_completo.h5")
     return modelo
 
 #Recibe una imagen y el modelo ya cargado
